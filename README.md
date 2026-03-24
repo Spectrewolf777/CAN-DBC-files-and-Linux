@@ -99,7 +99,7 @@ cansend vcan0 012#0100007701000000
 cansend vcan0 012#0100009C01000000
 ```
 
-id from database for battery = 12, held before #, then battery state 01 is defined as Enabled, next 4 bytes are ignored,  019C is battery voltage when LSB MSB = 9C01 gives value of 4.12V because of factor of 0.01 in dbc file
+id from database for battery = 12, held before #, then battery state 01 is defined as Enabled, next 4 bytes are ignored, battery voltage when 9C01  (LSBMSB 019C) gives value of 4.12V because of factor of 0.01 in dbc file
 
 
 
