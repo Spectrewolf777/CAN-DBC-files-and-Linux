@@ -47,7 +47,7 @@ cansend vcan0
 
 DOCS For CAN Interfaces https://netmodule-linux.readthedocs.io/en/latest/howto/can.html
 
-## Useful commands
+## Useful command
 logging CAN to a file
 ```
 candump vcan0 - l
