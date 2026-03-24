@@ -47,10 +47,37 @@ cansend vcan0
 
 DOCS For CAN Interfaces https://netmodule-linux.readthedocs.io/en/latest/howto/can.html
 
-## Useful command
+### Useful command
 logging CAN to a file
 ```
 candump vcan0 - l
 ```
 
-## Python Linux
+
+
+# Vector CANdb++
+Intel is Little endian (LSB) first, motorola is Big endian (MSB) first
+
+<img width="525" height="358" alt="image" src="https://github.com/user-attachments/assets/6198e778-c488-4d73-a296-dc376d0c3ea3" />
+
+Physical value of Data might be diffrenet  Data * factor + offset, depends on manufacturer. For this example factor for battery voltage is 0.25 and offset is 0
+
+<img width="525" height="358" alt="image" src="https://github.com/user-attachments/assets/6a4bb0e0-5e1a-48a4-8a36-77fa89096940" />
+
+
+<img width="1227" height="488" alt="image" src="https://github.com/user-attachments/assets/09f7c47d-f161-45b3-8408-a6e10a29dd12" />
+
+### Setting up message
+
+<img width="545" height="274" alt="image" src="https://github.com/user-attachments/assets/21be5475-3f18-480a-92fc-a8265d1e75ba" />
+
+<img width="522" height="252" alt="image" src="https://github.com/user-attachments/assets/7e855b47-e276-46ff-a027-170fc5efe4e4" />
+
+
+
+
+
+
+
+
+
