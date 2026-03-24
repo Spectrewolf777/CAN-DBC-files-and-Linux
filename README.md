@@ -79,6 +79,22 @@ Physical value of Data might be diffrenet  Data * factor + offset, depends on ma
 ## Receiveing data from linux terminal on SavvyCan
 <img width="1609" height="764" alt="savvycan" src="https://github.com/user-attachments/assets/9ceab1ca-c1be-4e5b-8927-d973f5b2b37c" />
 
+## SavvyCan Using .dbc to interpret data
+
+<img width="1428" height="370" alt="batteryStatesFromSavvyCan" src="https://github.com/user-attachments/assets/a6d27305-3ab9-40c3-90ef-9b7becc0a77e" />
+
+```
+cansend vcan0 012#0100007701000000
+```
+
+<img width="1766" height="506" alt="savvy2" src="https://github.com/user-attachments/assets/6de53514-70c0-4538-959a-e20ef7c909a7" />
+
+```
+cansend vcan0 012#0100009C01000000
+```
+
+id from database for battery = 12, held before #, then battery state 01 is defined as Enabled, next 4 bytes are ignored,  019C is battery voltage when LSB MSB = 9C01 gives value of 4.12V because of factor of 0.01 in dbc file
+
 
 
 
