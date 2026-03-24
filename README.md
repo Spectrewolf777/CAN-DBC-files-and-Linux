@@ -57,10 +57,11 @@ candump vcan0 - l
 
 # Vector CANdb++
 Intel is Little endian (LSB) first, motorola is Big endian (MSB) first
+<img width="562" height="379" alt="image" src="https://github.com/user-attachments/assets/d2d399c9-e395-4b4e-b1bd-f6ddcd121d33" />
 
-<img width="525" height="358" alt="image" src="https://github.com/user-attachments/assets/6198e778-c488-4d73-a296-dc376d0c3ea3" />
 
-Physical value of Data might be diffrenet  Data * factor + offset, depends on manufacturer. For this example factor for battery voltage is 0.25 and offset is 0
+
+Physical value of Data might be diffrenet  Data * factor + offset, depends on manufacturer. For this example factor for battery voltage is 0.01 and offset is 0
 
 <img width="525" height="358" alt="image" src="https://github.com/user-attachments/assets/6a4bb0e0-5e1a-48a4-8a36-77fa89096940" />
 
