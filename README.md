@@ -74,9 +74,10 @@ Physical value of Data might be diffrenet  Data * factor + offset, depends on ma
 
 <img width="522" height="252" alt="image" src="https://github.com/user-attachments/assets/7e855b47-e276-46ff-a027-170fc5efe4e4" />
 
+# SavvyCAN 
 
-
-
+## Receiveing data from linux terminal on SavvyCan
+<img width="1609" height="764" alt="savvycan" src="https://github.com/user-attachments/assets/9ceab1ca-c1be-4e5b-8927-d973f5b2b37c" />
 
 
 
